@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>Home</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -84,9 +84,12 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="inten.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">INTEN</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="inten.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
+            <p class="fw-bold">INTEN</p>
               <p class="card-text">INTEN dapat menciptakan keterampilan super dalam belajar dengan metode terbaik, yaitu dengan metode "Selajar Sejati"</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -100,9 +103,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="GO_les.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Ganesha Operation</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="GO_les.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
+            <p class="fw-bold">Ganesha Operation</p>
               <p class="card-text">Ganesha Operation merupakan lembaga bimbingan belajar terbaik dan terbesar di Indonesia. Ganesha Operation telah tersebar di 265 kota di Indonesia.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -116,9 +122,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="neutron.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Neutron</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="neutron.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
+            <p class="fw-bold">Neutron</p>
               <p class="card-text">NEUTRON memberikan akses terluas terhadap program belajar terbaik. Cari cabang yang ada di kotamu dan mulai belajar dengan Neutron.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -133,11 +142,14 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="nurulfikri.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Nurul Fikri</text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="nurulfikri.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+            </img>
             
 
             <div class="card-body">
-              <p class="card-text">NF menggunakan model pembelajaran Blended Learning, yakni proses belajar terpadu menggunakan pertemuan tatap muka dan online melalui aplikasi NF.</p>
+            <p class="fw-bold">Nurul Fikri</p>
+              <p class="card-text">NF menggunakan model pembelajaran Blended Learning, belajar terpadu menggunakan pertemuan tatap muka dan online melalui aplikasi NF.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -150,9 +162,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="kumon.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Kumon</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="kumon.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
+            <p class="fw-bold">Kumon</p>
               <p class="card-text">Membantu siswa dalam mengembangkan kemampuan akademik yang tinggi dan kemampuan belajar secara mandiri.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
@@ -166,9 +181,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="bintangpelajar.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Bintang Pelajar</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="bintangpelajar.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
+            <p class="fw-bold">Bintang Pelajar</p>
               <p class="card-text">Membantu puluhan ribu siswa untuk mewujudkan cita-citanya dan sukses dalam kegiatan akademik di sekolahnya.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
