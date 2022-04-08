@@ -51,17 +51,17 @@
     
   <header class="site-header  py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
-    <a class="py-2" href="#" aria-label="Product">
+    <a class="py-2" href="/" aria-label="Product">
       <img src="logokita.jpg" width="349" height="95" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></img>
     </a>
-    <a class="py-2 d-none d-md-inline-block" href="#">HOME</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">BIMBEL</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">BEASISWA</a>
-    <a class="py-2 d-none d-md-inline-block" href="#">KURSUS</a>
-    <a class="py-2 d-none d-md-inline-block" href="/login">LOGIN</a>
+    <a class="py-2 d-none d-md-inline-block mt-4" href="/">HOME</a>
+    <a class="py-2 d-none d-md-inline-block mt-4" href="#">BIMBEL</a>
+    <a class="py-2 d-none d-md-inline-block mt-4" href="#">BEASISWA</a>
+    <a class="py-2 d-none d-md-inline-block mt-4" href="#">KURSUS</a>
+    <a class="py-2 d-none d-md-inline-block mt-4" href="/login">LOGIN</a>
     
   </nav>
-</header>
+  </header>
 
 <main>
 
@@ -71,8 +71,8 @@
         <h1 class="fw-light-bold">D i B i m b i n g i n</h1>
         <p class="lead text-muted">Membantu jutaan siswa di Indonesia dalam mencari tempat kursus dan bimbingan terbaik. Semua tempat kursus dan bimbingan ada disini.  </p>
         <p>
-          <a href="#" class="btn btn-primary my-2">Daftar Sekarang!</a>
-          <a href="#" class="btn btn-secondary my-2">Login</a>
+          <a href="/regis" class="btn btn-primary my-2">Daftar Sekarang!</a>
+          <a href="/login" class="btn btn-secondary my-2">Login</a>
         </p>
       </div>
     </div>

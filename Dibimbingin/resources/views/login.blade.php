@@ -24,6 +24,9 @@
 <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
 <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#7952b3">
+@extends('navbar')
+
+@section('content')
 
 	</head>
 	<body>
@@ -59,7 +62,7 @@
 									</label>
 								</div>
 								<div class="w-50 text-md-right">
-									<a href="#">Forgot Password</a>
+									<a href="/lpwd">Forgot Password</a>
 								</div>
 	            </div>
 	          </form>
@@ -71,5 +74,5 @@
 
 
 	</body>
+	@endsection
 </html>
-
