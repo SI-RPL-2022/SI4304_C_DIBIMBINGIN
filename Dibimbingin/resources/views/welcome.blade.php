@@ -7,7 +7,11 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
+<<<<<<< HEAD
     <title>Dibimbingin</title>
+=======
+    <title>Home</title>
+>>>>>>> 83d2dcb427781ddc34964923cbdbe5179d2863c5
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
@@ -69,10 +73,10 @@
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light-bold">D i B i m b i n g i n</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p class="lead text-muted">Membantu jutaan siswa di Indonesia dalam mencari tempat kursus dan bimbingan terbaik. Semua tempat kursus dan bimbingan ada disini.  </p>
         <p>
           <a href="#" class="btn btn-primary my-2">Daftar Sekarang!</a>
-          <a href="#" class="btn btn-secondary my-2">Mashook</a>
+          <a href="#" class="btn btn-secondary my-2">Login</a>
         </p>
       </div>
     </div>
@@ -84,48 +88,57 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="inten.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="inten.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">INTEN</p>
+              <p class="card-text">INTEN dapat menciptakan keterampilan super dalam belajar dengan metode terbaik, yaitu dengan metode "Selajar Sejati"</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">20 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="GO_les.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="GO_les.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">Ganesha Operation</p>
+              <p class="card-text">Ganesha Operation merupakan lembaga bimbingan belajar terbaik dan terbesar di Indonesia. Ganesha Operation telah tersebar di 265 kota di Indonesia.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">15 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="neutron.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="neutron.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">Neutron</p>
+              <p class="card-text">NEUTRON memberikan akses terluas terhadap program belajar terbaik. Cari cabang yang ada di kotamu dan mulai belajar dengan Neutron.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">5 mins</small>
               </div>
             </div>
           </div>
@@ -133,11 +146,14 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="GO_les.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="nurulfikri.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+            </img>
             
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">Nurul Fikri</p>
+              <p class="card-text">NF menggunakan model pembelajaran Blended Learning, belajar terpadu menggunakan pertemuan tatap muka dan online melalui aplikasi NF.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -150,32 +166,38 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="neutron.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="kumon.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">Kumon</p>
+              <p class="card-text">Membantu siswa dalam mengembangkan kemampuan akademik yang tinggi dan kemampuan belajar secara mandiri.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">10 mins</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="inten.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="bintangpelajar.jpg" role="jpg" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/>
+          </img>
 
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="fw-bold">Bintang Pelajar</p>
+              <p class="card-text">Membantu puluhan ribu siswa untuk mewujudkan cita-citanya dan sukses dalam kegiatan akademik di sekolahnya.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                   <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">13 mins</small>
               </div>
             </div>
           </div>
