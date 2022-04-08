@@ -9,9 +9,6 @@
     <meta name="generator" content="Hugo 0.88.1">
 <<<<<<< HEAD
     <title>Dibimbingin</title>
-=======
-    <title>Home</title>
->>>>>>> 83d2dcb427781ddc34964923cbdbe5179d2863c5
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
 
