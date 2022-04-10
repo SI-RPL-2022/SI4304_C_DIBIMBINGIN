@@ -19,8 +19,8 @@
                         <input type="text" class="form-control" placeholder="SCHOOL"><br>
                         <input type="password" class="form-control" placeholder="PASSWORD"><br><br>
 
-                        <button class="btn btn-primary">REGISTER</button>
-
+                        <button type='submit'class="btn btn-primary">REGISTER</button>          
+                        <p>Already Have an Account ?<a href="/login">Login</a></p>
                     </div>
                     <div class="col-sm-2">
 

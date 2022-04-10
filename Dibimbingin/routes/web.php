@@ -28,3 +28,7 @@ Route::get('/lpwd', function () {
 Route::get('/regis', function () {
     return view('register');
 });
+
+Route::get('/lpwd2', function () {
+    return view('lupapwd2');
+});

@@ -17,9 +17,8 @@
                                   Forgot Your Password ?
                               </div>
                               <div class="card-body">
-                                  <p>Enter your email,phone, or username and we'll send you a link to get back into your account.</p><br>
-                                  <input type="email" class="form-control" placeholder="EMAIL,PHONE,USERNAME"><br>
-                                  <a href="/lpwd2"><button class="btn btn-primary px-5">SEND</button></a>
+                                  <p>We send you a link to get back into your account.Please check your email. Thank you</p><br>
+                                  <a href="/"><button class="btn btn-primary px-5">BACK TO HOME</button></a>
                               </div>
                           </div>
                         </div>

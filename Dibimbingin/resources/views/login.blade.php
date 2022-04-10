@@ -65,6 +65,10 @@
 									<a href="/lpwd">Forgot Password</a>
 								</div>
 	            </div>
+				<div class="form-group d-flex">
+					<p>Don't Have an Account ? </p>
+					<a href="/regis">Register</a>
+				</div>
 	          </form>
 	        </div>
 				</div>
