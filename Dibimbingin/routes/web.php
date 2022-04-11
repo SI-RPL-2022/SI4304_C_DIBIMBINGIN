@@ -32,3 +32,7 @@ Route::get('/regis', function () {
 Route::get('/lpwd2', function () {
     return view('lupapwd2');
 });
+
+Route::get('/informasi', function () {
+    return view('informasi');
+});
