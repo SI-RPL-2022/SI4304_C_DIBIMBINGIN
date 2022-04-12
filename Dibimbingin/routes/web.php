@@ -32,9 +32,9 @@ Route::get('/beasiswa', function () {
     ]);
 });
 
-Route::get('/kursus', function () {
-    return view('kursus', [
-        "title" => "Kursus"
+Route::get('/tentang', function () {
+    return view('tentang', [
+        "title" => "Tentang Kami"
     ]);
 });
 

@@ -18,7 +18,7 @@
           <a class="nav-link {{ ($title === "Beasiswa") ? 'active' : '' }}" href="/beasiswa">Beasiswa</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link {{ ($title === "Kursus") ? 'active' : '' }}" href="/kursus">Kursus</a>
+          <a class="nav-link {{ ($title === "Tentang Kami") ? 'active' : '' }}" href="/tentang">Tentang Kami</a>
           </li>
       </ul>
       <ul class="navbar-nav ms-auto">
