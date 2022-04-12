@@ -1,9 +1,9 @@
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
   <div class="container">
       <a class="navbar-brand" href="/">
-      <img src="logonavbar.png" width="200" height="75" >
+      <img src="logonavbar.png" width="100" height="50" >
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

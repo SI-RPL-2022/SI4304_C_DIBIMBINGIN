@@ -5,8 +5,8 @@
 
 <main class="form-signin">
     <form>
-      <img class="mb-4" src="logokita.jpg" alt="" width="280" height="57">
-      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      <img class="text-center" height="100" src="dibimbingin 3.png" alt="">
+      <!-- <h1 class="h3 mb-3 fw-normal">Please sign in</h1> -->
   
       <div class="form-floating">
         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">

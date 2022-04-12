@@ -5,8 +5,7 @@
 
 <main class="form-registration  ">
     <form>
-      <img class="mb-4" src="logokita.jpg" alt="" width="280" height="57">
-      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      <img class="mb-4" src="dibimbingin 3.png" alt="" height="100">
       
       <div class="form-floating">
         <input type="text" name="name" class="form-control rounded-top" id="name" placeholder="Name">

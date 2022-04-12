@@ -15,7 +15,11 @@
 <div class="container">
     <div class="row">
         <div class="container text-center">
-            <p>Ayo</p> <strong>DIBIMBINGIN</strong> <p>aja</p>
+            <h1>Ayo <strong>DIBIMBINGIN</strong> aja</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
+            <div class="container">
+                <img src="Group 30.png" alt="">
+            </div>
         </div>
     </div>
 </div>
