@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,25 +15,30 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home', [
+        "title" => "Home"
+    ]);
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::get('/bimbel', function () {
+    return view('bimbel',[
+        "title" => "Bimbel"
+    ]);
 });
 
-Route::get('/lpwd', function () {
-    return view('lupapwd');
+Route::get('/beasiswa', function () {
+    return view('beasiswa',[
+        "title" => "Beasiswa"
+    ]);
 });
 
-Route::get('/regis', function () {
-    return view('register');
+Route::get('/kursus', function () {
+    return view('kursus', [
+        "title" => "Kursus"
+    ]);
 });
 
-Route::get('/lpwd2', function () {
-    return view('lupapwd2');
-});
 
-Route::get('/informasi', function () {
-    return view('informasi');
-});
+Route::get('/login', [LoginController::class, 'index']);
+Route::get('/register', [RegisterController::class, 'index']);
+
