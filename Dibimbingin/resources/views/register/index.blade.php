@@ -5,7 +5,7 @@
 
 <main class="form-registration  ">
     <form>
-      <img class="mb-4" src="/img/person.svg" alt="" width="280" height="57">
+      <img class="mb-4" src="logokita.jpg" alt="" width="280" height="57">
       <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
       
       <div class="form-floating">
