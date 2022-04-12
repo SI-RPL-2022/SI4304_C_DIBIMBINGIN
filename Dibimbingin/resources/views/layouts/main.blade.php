@@ -17,7 +17,7 @@
 
     <title>Dibimbingin | {{ $title }}</title>
   </head>
-  <body>
+  <body class="bg-light">
 
     @include('layouts.navbar')
 
