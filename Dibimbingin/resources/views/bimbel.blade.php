@@ -12,7 +12,7 @@
 <div class="card-group">    
 <div class="card" style="width: 29rem">
   <img src="smp.png" class="card-img" alt="...">
-  <a class="navbar-brand text-white" href="#">
+  <a class="navbar-brand text-white" href="#smp">
   <div class="card-img-overlay">
     <h5 class="card-title" >SMP</h5>
     </a>
@@ -21,7 +21,7 @@
 
 <div class="card" style="width: 29rem">
   <img src="sma.png" class="card-img" alt="...">
-  <a class="navbar-brand text-white" href="#">
+  <a class="navbar-brand text-white" href="#sma">
   <div class="card-img-overlay">
     <h5 class="card-title">SMA</h5>
     </a>
@@ -34,6 +34,8 @@
 <br>
 <br>
 
+ <!-- halaman pilihan bimbel untuk SMP -->
+<section id="smp" class="smp">
 <p class="text-center fs-2 fw-bolder ">Tempat Bimbingan untuk siswa SMP</p>
 <p class="text-center">Program bimbingan ampuh untuk siswa SMP yang akan membantu siswa.
 Temukan program yang cocok denganmu!</p>
@@ -65,15 +67,16 @@ Temukan program yang cocok denganmu!</p>
 </div>
 
 <br>
-<div class="text-center">
-<h3>Lihat Bimbel Lain</h3>
-</div>
+
 
 <br>
 <br>
 <br>
 <br>
 <br>
+
+ <!-- halaman pilihan bimbel untuk SMA -->
+<section id="sma" class="sma">
 <p class="text-center fs-2 fw-bolder ">Tempat Bimbingan untuk siswa SMA</p>
 <p class="text-center">Program bimbingan ampuh untuk siswa SMP yang akan membantu siswa.
 Temukan program yang cocok denganmu!</p>
@@ -105,8 +108,6 @@ Temukan program yang cocok denganmu!</p>
 </div>
 
 <br>
-<div class="text-center">
-<h3>Lihat Bimbel Lain</h3>
-</div>
+
 
 @endsection
