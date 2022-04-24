@@ -38,6 +38,23 @@ Route::get('/tentang', function () {
     ]);
 });
 
+Route::get('/ganesha', function () {
+    return view('ganesha', [
+        "title" => "Informasi"
+    ]);
+});
+
+Route::get('/nf', function () {
+    return view('nf', [
+        "title" => "Informasi"
+    ]);
+});
+
+Route::get('/primagama', function () {
+    return view('primagama', [
+        "title" => "Informasi"
+    ]);
+});
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);

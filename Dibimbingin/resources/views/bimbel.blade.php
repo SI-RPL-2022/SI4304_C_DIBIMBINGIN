@@ -16,6 +16,7 @@
   <div class="card-img-overlay">
     <h5 class="card-title" >SMP</h5>
     </a>
+  
   </div>
 </div>
 
@@ -41,27 +42,33 @@
 Temukan program yang cocok denganmu!</p>
 <div class="card-group">
   <div class="card">
-    <img src="nf.jpg" height= "280px" class="card-img-top" alt="...">
+    <img src="nf.jpg" height= "250px" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMP</small></p>
       <h5 class="card-title">Nurul Fikri</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="nf">Read More</a>
     </div>
   </div>
+  
+  
   <div class="card">
-    <img src="go.jpg" class="card-img-top" alt="...">
+    <img src="go.jpg" height= "250px" class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMP</small></p>
       <h5 class="card-title">Ganesha Opration</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="ganesha">Read More</a>
     </div>
   </div>
+
   <div class="card">
-    <img src="prima.jpeg" class="card-img-top" alt="..." >
+    <img src="prima.jpeg" height= "250px"  class="card-img-top" alt="..." >
     <div class="card-body">
       <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMP</small></p>
       <h5 class="card-title">Primagama</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="primagama">Read More</a>
     </div>
   </div>
 </div>
@@ -82,27 +89,33 @@ Temukan program yang cocok denganmu!</p>
 Temukan program yang cocok denganmu!</p>
 <div class="card-group">
   <div class="card">
-    <img src="nf.jpg" height= "280px" class="card-img-top" alt="...">
+    <img src="https://www.ujianbersamanf.com/images/logo_nf.png" height= "250px" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA</small></p>
+      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA/SMK Sederajat</small></p>
       <h5 class="card-title">Nurul Fikri</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="nf">Read More</a>
     </div>
   </div>
+  
+  
   <div class="card">
-    <img src="go.jpg" class="card-img-top" alt="...">
+    <img src="https://jobfair.jabarprov.go.id/storage/User/Profile/pt-pendidikan-ganesha-operation-g7JWQ.png" height= "250px" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA/SMK/Sederajat</small></p>
+      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA/SMK Sederajat</small></p>
       <h5 class="card-title">Ganesha Opration</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="ganesha">Read More</a>
     </div>
   </div>
+
   <div class="card">
-    <img src="prima.jpeg" class="card-img-top" alt="..." >
+    <img src="https://1.bp.blogspot.com/-aTtINzBaDVM/XD2yojHJRdI/AAAAAAAARgU/sVCQ1AjNOyoF_xzn04iW-UKl81u82tSuwCLcBGAs/s1600/Primagama.png" height= "250px"  class="card-img-top" alt="..." >
     <div class="card-body">
-      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA/SMK/Sederajat</small></p>
+      <p class="card-text"><small class="text-muted">Kelas 1, 2, 3 SMA/SMK Sederajat</small></p>
       <h5 class="card-title">Primagama</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus accumsan, ultrices elit vel, posuere risus. Nunc id tincidunt lacus. Ut vitae consectetur nisi, nec ultricies lectus.</p>
+      <a class="waves-effect waves-light btn" style="text-align: right;" href="primagama">Read More</a>
     </div>
   </div>
 </div>
