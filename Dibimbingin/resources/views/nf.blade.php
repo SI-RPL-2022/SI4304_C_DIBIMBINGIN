@@ -1,25 +1,26 @@
-@extends('navbar')
+@extends('layouts.main')
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-@section('content')
+@section('container')
+
 
 <main class="container">
-  <img src="https://faktualnews-prod.s3.ap-southeast-1.amazonaws.com/images/2021/01/06010701/ganesha-640x480.jpg" width="1100" height="450">
+  <img src="https://www.ujianbersamanf.com/sbmptn/admin/images/img-logo-panitia/61289fe17db76b25b6a2ccd17afc6ef3.png" width="1290" height="450">
   <div class="row g-5">
     <div class="col-md-8">
       <h3 class="pb-4 mb-4 fst-italic border-bottom">
-        Ganesha Operation
+        Nurul Fikri
       </h3>
-      <i class="fa fa-map-o col-md-1" style="font-size:24px"></i><p1>Jakarta Pusat</p1></br>
-      <i class="fa fa-address-book-o col-md-1" style="font-size:24px"></i><p1>0812233232</p1></br>
-      <i class="fa fa-whatsapp col-md-1" style="font-size:24px"></i><p1>0812231111</p1></br>
-      <i class="fa fa-envelope-o col-md-1" style="font-size:24px"></i><p1>ganesha@gmail.com</p1><hr />
+      <i class="fa fa-map-o col-md-1" style="font-size:24px"></i><p1>Jakarta</p1></br>
+      <i class="fa fa-address-book-o col-md-1" style="font-size:24px"></i><p1>0815454545</p1></br>
+      <i class="fa fa-whatsapp col-md-1" style="font-size:24px"></i><p1>081656454</p1></br>
+      <i class="fa fa-envelope-o col-md-1" style="font-size:24px"></i><p1>nurul.fikri@gmail.com</p1><hr />
 </div>
 <div class="col-md-8">
       <h3>
-        Tentang Ganesha Operation
+        Tentang Nurul Fikri
       </h3>
       <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <hr /></div>
@@ -132,19 +133,19 @@
       </h3>    
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://png.pngtree.com/thumb_back/fw800/background/20210902/pngtree-teachers-day-daytime-lecture-teacher-daytime-male-teacher-photograph-with-picture-image_784874.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></img>
 
         <h2>Ahmad</h2>
         <p>Ahli Matematika</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+      <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://st3.depositphotos.com/16122460/19082/i/450/depositphotos_190827066-stock-photo-young-male-teacher-standing-in.jpg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></img>
 
         <h2>Benzema</h2>
         <p>Ahli Fisika</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://akupintar.id/documents/portlet_file_entry/20143/tugas+dan+tanggungjawab+guru.jpg/a3827a4d-1866-7211-049b-a573daf98f62?imagePreview=1" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></img>
 
         <h2>Mane</h2>
         <p>Ahli Biologi</p>
