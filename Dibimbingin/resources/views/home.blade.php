@@ -1,26 +1,22 @@
-@extends( 'layouts.main' )
+@extends('layouts.app')
 
-@section('container')
-<div class="container mt-5">
+@section('content')
+
     <div class="row">
-        <div class="col-sm-7 mt-5">
-            <h1>START LEARNING WITH US</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="col-1"></div>
+        <div class="col-5">
+            <h1 class="h1" style="font-size: 90px; font-weight: bold ; margin-top: 100px">
+                Start <b class="text-primary">Learning </b>  <br> With Us
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam animi ducimus eaque, incidunt laudantium, minima nihil optio placeat ut veniam. Fugiat minus rerum voluptas voluptatem? Maxime, molestiae, rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nesciunt quia sapiente sunt vitae? Adipisci at aut deleniti exercitationem harum magni molestias nobis qui! Animi deleniti qui quia? Nulla!
+            </p>
         </div>
-        <div class="col-sm-5">
-            <img src="Education.png" alt="Education">
+
+        <div class="col-6">
+            <img src="{{asset('/edu.png')}}" alt="">
         </div>
     </div>
-</div><br>
-<div class="container">
-    <div class="row">
-        <div class="container text-center">
-            <h1>Ayo <strong>DIBIMBINGIN</strong> aja</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an.</p>
-            <div class="container">
-                <img src="Group 30.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+
+
 @endsection
