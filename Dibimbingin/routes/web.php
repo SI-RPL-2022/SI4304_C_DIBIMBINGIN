@@ -56,34 +56,11 @@ Route::prefix('admin')->group(function (){
     Route::post('/beasiswa/edit/{id}' , [\App\Http\Controllers\adminController::class , 'editbeasiswapost'])->name('admin.editbeasiswapost');
     Route::get('/beasiswa/delete/{id}' , [\App\Http\Controllers\adminController::class , 'deletebeasiswa'])->name('admin.deletebeasiswa');
 });
-<<<<<<< HEAD
-=======
 
-Route::get('/ganesha', function () {
-    return view('ganesha', [
-        "title" => "Informasi"
-    ]);
-});
+Auth::routes();
 
-Route::get('/nf', function () {
-    return view('nf', [
-        "title" => "Informasi"
-    ]);
-});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/primagama', function () {
-    return view('primagama', [
-        "title" => "Informasi"
-    ]);
-});
+Auth::routes();
 
-Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
-Route::post('/login', [LoginController::class, 'authenticate']);
-Route::post('/logout', [LoginController::class, 'logout']);
-
-Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
-Route::post('/register', [RegisterController::class, 'store']);
-
-
-Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->middleware('auth');
->>>>>>> c7227d9f6b7b884a95d43ea0d4b54d61925ee97c
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
