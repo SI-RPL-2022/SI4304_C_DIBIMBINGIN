@@ -7,12 +7,12 @@
 
             <h1 class="text-center"> Daftar Beasiswa</h1>
 
-            <h4 class="mt-4">Profil</h4>
+            <h4 class="mt-4">Profil Beasiswa</h4>
             <form action="{{route('admin.addbeasiswapost')}}" method="post" enctype="multipart/form-data" class="">
                 @csrf
                 @method('post')
                 <div class="form-group mb-3">
-                    <input type="text" name="nama" placeholder="Nama Bimbel" class="form-control"  required>
+                    <input type="text" name="nama" placeholder="Nama Beasiswa" class="form-control"  required>
                 </div>
 
                 <div class="form-group mb-3">
