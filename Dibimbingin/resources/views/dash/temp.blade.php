@@ -128,6 +128,15 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="{{route('admin.listtryout')}}" class="nav-link">
+                            <i class="fas fa-user-graduate mr-1"></i>
+                            <p>
+                                Page Tryout
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="pages/gallery.html" class="nav-link">
                             <i class="fas fa-cog mr-1"></i>
                             <p>

@@ -3,7 +3,7 @@
 @section('content')
 
     <h1 class="h1 text-center" style="font-size: 50px; font-weight: bold; ">
-        Info Beasiswa Kuliah
+        Info TryOut
     </h1>
     <p class="text-center">
        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci, consequatur corporis fugit id illo in modi molestias neque odit saepe sit totam. Aperiam dolorem doloremque iure pariatur tempore voluptate?
