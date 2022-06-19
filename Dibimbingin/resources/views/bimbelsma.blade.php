@@ -6,7 +6,7 @@
         Tempat Bimbingan untuk Siswa SMA
     </h1>
     <p class="text-center">
-        Program bimbingan ampuh untuk siswa SMP yang akan membantu siswa.
+        Program bimbingan ampuh untuk siswa SMA yang akan membantu siswa.
         Temukan program yang cocok denganmu!
     </p>
 

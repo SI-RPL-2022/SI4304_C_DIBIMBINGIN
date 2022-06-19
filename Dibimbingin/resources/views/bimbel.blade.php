@@ -3,10 +3,10 @@
 @section('content')
 
     <h1 class="h1 text-center" style="font-size: 50px; font-weight: bold; ">
-      Pilih Tingkat Studimu
+      Pilih Tingkat Pendidikanmu
     </h1>
     <p class="text-center">
-        Cari tahu indo dan  program bimbingan sesuai dengan tingkat studi.
+        Cari tahu informasi dan  program bimbingan sesuai dengan tingkat pendidikanmu.
     </p>
 
     <div class="d-flex m-3 justify-content-center" style="margin-top: 120px">
