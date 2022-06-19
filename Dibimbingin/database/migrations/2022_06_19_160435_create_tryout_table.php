@@ -21,7 +21,7 @@ return new class extends Migration
             $table->char('alamat');
             $table->char('kontak');
             $table->integer('WA');
-            $table->char('email');
+            $table->char('tanggal');
             $table->text('tentang_kami');
             $table->text('syarat');
             $table->text('registrasi');

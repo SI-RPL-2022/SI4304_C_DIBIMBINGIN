@@ -5,18 +5,18 @@
     <section class="content">
         <div class="container-fluid p-3">
 
-            <h1 class="text-center"> Daftar Beasiswa</h1>
+            <h1 class="text-center"> Daftar Tryout</h1>
 
-            <h4 class="mt-4">Profil Beasiswa</h4>
-            <form action="{{route('admin.addbeasiswapost')}}" method="post" enctype="multipart/form-data" class="">
+            <h4 class="mt-4">Tryout</h4>
+            <form action="{{route('admin.addtryoutpost')}}" method="post" enctype="multipart/form-data" class="">
                 @csrf
                 @method('post')
                 <div class="form-group mb-3">
-                    <input type="text" name="nama" placeholder="Nama Beasiswa" class="form-control"  required>
+                    <input type="text" name="nama" placeholder="Nama Tryout" class="form-control"  required>
                 </div>
 
                 <div class="form-group mb-3">
-                    <input type="text" name="alamat" placeholder="Alamat" class="form-control"  required>
+                    <input type="text" name="alamat" placeholder="Tempat Tryout" class="form-control"  required>
                 </div>
 
                 <div class="form-group mb-3">
@@ -28,11 +28,11 @@
                 </div>
 
                 <div class="form-group mb-3">
-                    <input type="email" name="email" placeholder="Email" class="form-control"  required>
+                    <input type="date" name="tanggal" placeholder="Tanggal Tryout" class="form-control"  required>
                 </div>
 
                 <div class="form-group mb-3">
-                    <h4 class="mt-4">Tentang kami</h4>
+                    <h4 class="mt-4">Tentang Tryout</h4>
                     <textarea name="tentang" id="Tentang Kami" class="form-control" rows="7"></textarea>
                 </div>
                 <div class="form-group mb-3">
@@ -47,7 +47,7 @@
 
 
                 <div class="form-group mb-3">
-                    <h4 class="mt-4">Info Beasiswa</h4>
+                    <h4 class="mt-4">Info Tryout</h4>
                     <textarea name="info" id="Tentang Kami" class="form-control" rows="7"></textarea>
                 </div>
 

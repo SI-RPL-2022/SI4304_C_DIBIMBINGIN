@@ -5,12 +5,12 @@
     <section class="content">
         <div class="container-fluid">
 
-            <h1 class="text-center"> Daftar Beasiswa</h1>
+            <h1 class="text-center"> Daftar Tryout</h1>
 
             <div class="card card-outline card-dark">
                 <div class="d-flex justify-content-between p-3 align-items-center justify-content-center">
 
-                    <a href="{{route('admin.addbeasiswa')}}" class="btn btn-primary w-100">Tambah Beasiswa</a>
+                    <a href="{{route('admin.addtryout')}}" class="btn btn-primary w-100">Tambah Tryout</a>
 
                 </div>
                 <hr>
@@ -20,8 +20,8 @@
                             <h5>{{$x->nama}}</h5>
                         </div>
                         <div class="d-flex">
-                            <a href="{{route('admin.editbeasiswa' , ['id'=>$x->id])}}" class="btn btn-warning mr-2">Edit List</a>
-                            <a href="{{route('admin.deletebeasiswa' , ['id'=>$x->id])}}" class="btn btn-danger">Delete List</a>
+                            <a href="{{route('admin.edittryout' , ['id'=>$x->id])}}" class="btn btn-warning mr-2">Edit List</a>
+                            <a href="{{route('admin.deletetryout' , ['id'=>$x->id])}}" class="btn btn-danger">Delete List</a>
                         </div>
                     </div>
                 @endforeach

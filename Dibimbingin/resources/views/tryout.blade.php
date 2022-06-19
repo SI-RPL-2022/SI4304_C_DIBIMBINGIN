@@ -13,12 +13,12 @@
 
         @foreach($data as $x)
             <div class="card m-3" style="width: 18rem;">
-                <img src="{{asset('/beasiswalogo/'.$x->image)}}" class="card-img-top" style="overflow: hidden; height: 100%" alt="...">
+                <img src="{{asset('/tryoutlogo/'.$x->image)}}" class="card-img-top" style="overflow: hidden; height: 100%" alt="...">
                 <div class="card-body">
-                    <p>Untuk Beasiswa Kuliah</p>
+                    <p>TryOut</p>
                     <h5 class="card-title fa-bold fw-bold">{{$x->nama}}</h5>
                     <p class="card-text">{{$x->tentang_kami}}</p>
-                    <a href="{{route('detailbeasiswa' , ['id'=>$x['id']])}}" class="btn btn-primary w-100">Lihat Detail</a>
+                    <a href="{{route('detailtryout' , ['id'=>$x['id']])}}" class="btn btn-primary w-100">Lihat Detail</a>
                 </div>
             </div>
         @endforeach

@@ -44,7 +44,7 @@
                         <span class="info-box-icon bg-danger"><i class="fas fa-users"></i></span>
                         <div class="info-box-content">
                             <span class="info-box-text">Tryout</span>
-                            <span class="info-box-number">{{$user}}</span>
+                            <span class="info-box-number">{{$tryout}}</span>
                         </div>
                     </div>
 

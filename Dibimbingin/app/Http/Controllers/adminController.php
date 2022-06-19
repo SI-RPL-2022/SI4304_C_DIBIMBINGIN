@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Beasiswa;
+use App\Models\Tryout;
 use App\Models\Bimbel;
 use App\Models\Pengajar;
 use App\Models\User;
@@ -26,7 +27,8 @@ class adminController extends Controller
         $user = count(User::all());
         $bimbelsma = count(Bimbel::all()->where('tipe','sma'));
         $bimbelsmp = count(Bimbel::all()->where('tipe','smp'));
-        return view('dash.overview' , ['beasiswa' => $beasiswa , 'user' => $user , 'bimbelsma' => $bimbelsma , 'bimbelsmp'=>$bimbelsmp]);
+        $tryout = count(Tryout::all());
+        return view('dash.overview' , ['beasiswa' => $beasiswa , 'user' => $user , 'bimbelsma' => $bimbelsma , 'bimbelsmp'=>$bimbelsmp, 'tryout' => $tryout]);
     }
 
     public function user(){
@@ -71,10 +73,9 @@ class adminController extends Controller
     public function addtryoutpost(Request $request){
         $data = new Tryout();
         $data->nama = $request->nama;
-        $data->tipe = "smp";
         $data->alamat = $request->alamat;
         $data->kontak = $request->kontak;
-        $data->email = $request->email;
+        $data->tanggal = $request->tanggal;
         $data->WA = $request->wa;
         $data->tentang_kami = $request->tentang;
         $data->syarat = $request->syarat;
@@ -83,12 +84,12 @@ class adminController extends Controller
 
         $file = $request->file('imagelogo');
         $nama_file = time()."_".$file->getClientOriginalName();
-        $tujuan_upload = 'beasiswalogo';
+        $tujuan_upload = 'tryoutlogo';
         $file->move($tujuan_upload,$nama_file);
         $data->image = $nama_file;
         $data->save();
 
-        return redirect()->route('admin.listbeasiswa');
+        return redirect()->route('admin.listtryout');
     }
 
     public function editbaesiswa($id){
@@ -97,7 +98,7 @@ class adminController extends Controller
     }
 
     public function edittryout($id){
-        $data = Beasiswa::find($id);
+        $data = Tryout::find($id);
         return view('dash.edittryout' , ['data'=>$data]);
     }
 
@@ -128,7 +129,6 @@ class adminController extends Controller
     public function edittryoutpost($id , Request $request){
         $data = Tryout::find($id);
         $data->nama = $request->nama;
-        $data->tipe = "smp";
         $data->alamat = $request->alamat;
         $data->kontak = $request->kontak;
         $data->email = $request->email;
@@ -141,7 +141,7 @@ class adminController extends Controller
         if ($request->imagelogo != null){
             $file = $request->file('imagelogo');
             $nama_file = time()."_".$file->getClientOriginalName();
-            $tujuan_upload = 'beasiswalogo';
+            $tujuan_upload = 'tryoutlogo';
             $file->move($tujuan_upload,$nama_file);
             $data->image = $nama_file;
         }
@@ -155,6 +155,11 @@ class adminController extends Controller
         return redirect()->back();
     }
 
+    public function deletetryout($id){
+        $data = Tryout::find($id);
+        $data->delete();
+        return redirect()->back();
+    }
     public function addsmp(){
         return view('dash.addsmp');
     }

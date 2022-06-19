@@ -47,13 +47,17 @@
         <!-- Right navbar links -->
         <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item dropdown">
-                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+            <li class="nav-item ms-auto">
+                <a id="nav-item ms-auto" class="nav-link" href="#" role="" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                    Admin
                 </a>
-
-                <div class="dropdown-menu dropdown-menu-end dropdown-menu-right" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ route('logout') }}"
+            </li>
+            <li class="nav-item ms-auto mt-2 mr-2" >
+                |
+            </li>
+            <li class="nav-item ms-auto mt-2">
+                <div class="nav-item" aria-labelledby="nav-item">
+                    <a class="nav-item" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                         {{ __('Logout') }}
