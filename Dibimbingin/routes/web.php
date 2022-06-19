@@ -29,6 +29,9 @@ Route::get('/detailbimbel/{id}' , [\App\Http\Controllers\HomeController::class ,
 Route::get('/beasiswa' , [\App\Http\Controllers\HomeController::class , 'beasiswa'])->name('beasiswa');
 Route::get('/detailbeasiswa/{id}' , [\App\Http\Controllers\HomeController::class , 'detailbeasiswa'])->name('detailbeasiswa');
 
+Route::get('/tryout' , [\App\Http\Controllers\HomeController::class , 'tryout'])->name('tryout');
+Route::get('/detailtryout/{id}' , [\App\Http\Controllers\HomeController::class , 'detailtryout'])->name('detailtryout');
+
 Route::prefix('admin')->group(function (){
     Route::get('/' , function (){
         return redirect()->route('overview');
@@ -55,6 +58,13 @@ Route::prefix('admin')->group(function (){
     Route::get('/beasiswa/edit/{id}' , [\App\Http\Controllers\adminController::class , 'editbaesiswa'])->name('admin.editbeasiswa');
     Route::post('/beasiswa/edit/{id}' , [\App\Http\Controllers\adminController::class , 'editbeasiswapost'])->name('admin.editbeasiswapost');
     Route::get('/beasiswa/delete/{id}' , [\App\Http\Controllers\adminController::class , 'deletebeasiswa'])->name('admin.deletebeasiswa');
+
+    Route::get('/tryout/list' , [\App\Http\Controllers\adminController::class , 'tryoutlist'])->name('admin.listtryout');
+    Route::get('/tryout/add' , [\App\Http\Controllers\adminController::class , 'addtryout'])->name('admin.addtryout');
+    Route::post('/tryout/add' , [\App\Http\Controllers\adminController::class , 'addtryoutpost'])->name('admin.addtryoutpost');
+    Route::get('/tryout/edit/{id}' , [\App\Http\Controllers\adminController::class , 'edittryout'])->name('admin.edittryout');
+    Route::post('/tryout/edit/{id}' , [\App\Http\Controllers\adminController::class , 'edittryoutpost'])->name('admin.edittryoutpost');
+    Route::get('/tryout/delete/{id}' , [\App\Http\Controllers\adminController::class , 'deletetryout'])->name('admin.deletetryout');
 });
 
 Auth::routes();

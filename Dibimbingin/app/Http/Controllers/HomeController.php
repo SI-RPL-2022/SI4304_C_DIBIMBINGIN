@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Beasiswa;
 use App\Models\Bimbel;
 use App\Models\Pengajar;
+use App\Models\Tryout;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -44,6 +45,11 @@ class HomeController extends Controller
         return view('beasiswa' , ['data'=>$data]);
     }
 
+    public function tryout(){
+        $data = Tryout::all();
+        return view('tryout' , ['data'=>$data]);
+    }
+
     public function bimbelsma(){
         $data = Bimbel::all()->where('tipe' , 'sma' );
         return view('bimbelsma' , ['data'=>$data]);
@@ -58,5 +64,10 @@ class HomeController extends Controller
     public function detailbeasiswa($id){
         $data = Beasiswa::find($id);
         return view('detailbeasiswa' , ['data'=>$data]);
+    }
+
+    public function detailtryout($id){
+        $data = tryout::find($id);
+        return view('detailtryout' , ['data'=>$data]);
     }
 }

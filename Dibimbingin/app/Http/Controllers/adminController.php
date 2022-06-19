@@ -15,6 +15,12 @@ class adminController extends Controller
         $data = Beasiswa::all();
         return view('dash.beasiswalist' , ['data'=>$data]);
     }
+
+    public function tryoutlist(){
+        $data = Tryout::all();
+        return view('dash.tryoutlist' , ['data'=>$data]);
+    }
+
     public function overview(){
         $beasiswa = count(Beasiswa::all());
         $user = count(User::all());
@@ -35,8 +41,35 @@ class adminController extends Controller
         return view('dash.addbeasiswa');
     }
 
+    public function addtryout(){
+        return view('dash.addtryout');
+    }
+
     public function addbeasiswapost(Request $request){
         $data = new Beasiswa();
+        $data->nama = $request->nama;
+        $data->tipe = "smp";
+        $data->alamat = $request->alamat;
+        $data->kontak = $request->kontak;
+        $data->email = $request->email;
+        $data->WA = $request->wa;
+        $data->tentang_kami = $request->tentang;
+        $data->syarat = $request->syarat;
+        $data->registrasi = $request->registrasi;
+        $data->info = $request->info;
+
+        $file = $request->file('imagelogo');
+        $nama_file = time()."_".$file->getClientOriginalName();
+        $tujuan_upload = 'beasiswalogo';
+        $file->move($tujuan_upload,$nama_file);
+        $data->image = $nama_file;
+        $data->save();
+
+        return redirect()->route('admin.listbeasiswa');
+    }
+
+    public function addtryoutpost(Request $request){
+        $data = new Tryout();
         $data->nama = $request->nama;
         $data->tipe = "smp";
         $data->alamat = $request->alamat;
@@ -63,8 +96,37 @@ class adminController extends Controller
         return view('dash.editbeasiswa' , ['data'=>$data]);
     }
 
+    public function edittryout($id){
+        $data = Beasiswa::find($id);
+        return view('dash.edittryout' , ['data'=>$data]);
+    }
+
     public function editbeasiswapost($id , Request $request){
         $data = Beasiswa::find($id);
+        $data->nama = $request->nama;
+        $data->tipe = "smp";
+        $data->alamat = $request->alamat;
+        $data->kontak = $request->kontak;
+        $data->email = $request->email;
+        $data->WA = $request->wa;
+        $data->tentang_kami = $request->tentang;
+        $data->syarat = $request->syarat;
+        $data->registrasi = $request->registrasi;
+        $data->info = $request->info;
+
+        if ($request->imagelogo != null){
+            $file = $request->file('imagelogo');
+            $nama_file = time()."_".$file->getClientOriginalName();
+            $tujuan_upload = 'beasiswalogo';
+            $file->move($tujuan_upload,$nama_file);
+            $data->image = $nama_file;
+        }
+        $data->update();
+        return redirect()->back();
+    }
+
+    public function edittryoutpost($id , Request $request){
+        $data = Tryout::find($id);
         $data->nama = $request->nama;
         $data->tipe = "smp";
         $data->alamat = $request->alamat;
