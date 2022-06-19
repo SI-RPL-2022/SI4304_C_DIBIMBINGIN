@@ -6,7 +6,7 @@
         Info Beasiswa Kuliah
     </h1>
     <p class="text-center">
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci, consequatur corporis fugit id illo in modi molestias neque odit saepe sit totam. Aperiam dolorem doloremque iure pariatur tempore voluptate?
+       Berikut ini merupakan daftar beasiswa tahun ini beserta informasi singkat mengenai penyelenggara, bentuk beasiswa yang diberikan dan info lainnya. Segera daftarkan dirimu untuk mengikuti beasiswa yang tersedia ya..
     </p>
 
     <div class="d-flex flex-wrap justify-content-center">

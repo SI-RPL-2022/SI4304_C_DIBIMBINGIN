@@ -6,7 +6,7 @@
         Info TryOut
     </h1>
     <p class="text-center">
-       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci, consequatur corporis fugit id illo in modi molestias neque odit saepe sit totam. Aperiam dolorem doloremque iure pariatur tempore voluptate?
+       Informasi TryOut yang kami berikan merupakan TryOut yang akan dilakukan oleh beberapa tempat bimbingan yang terdaftar dengan kami. Ajak teman temanmu untuk ikut TryOut bareng kamu juga ya!
     </p>
 
     <div class="d-flex flex-wrap justify-content-center">

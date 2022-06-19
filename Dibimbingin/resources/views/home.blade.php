@@ -9,7 +9,7 @@
                 Start <b class="text-primary">Learning </b>  <br> With Us
             </h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aliquam animi ducimus eaque, incidunt laudantium, minima nihil optio placeat ut veniam. Fugiat minus rerum voluptas voluptatem? Maxime, molestiae, rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem incidunt nesciunt quia sapiente sunt vitae? Adipisci at aut deleniti exercitationem harum magni molestias nobis qui! Animi deleniti qui quia? Nulla!
+            Dibimbingin merupakan platform untuk mencari tempat bimbingan belajar terbaik di kotamu. Kemudahan yang diberikan akan membuat kamu menjadi lebih semangat lagi untuk belajar dan meraih cita citamu. Terdapat bermacam macam informasi yang kami berikan seperti informasi mengenai tempat bimbingan, truout bahkan informasi mengenai beasiswa juga loh! 
             </p>
         </div>
 

@@ -6,7 +6,7 @@
                 Ayo <b class="" style="font-weight: bold">Dibimbingin </b>  Aja
             </h1>
     <p class="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad atque culpa debitis et excepturi explicabo illo,vero voluptatem! Libero.
+        Dibimbingin akan membantu anda dalam mencari tempat bimbingan yang terbaik dan terdekat dengan anda. Bersama kami wujudkan impian dan cita cita anda!!
     </p>
 
             <img class="m-2 d-block mx-auto" src="{{asset('/about.png')}}" alt="">
