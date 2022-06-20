@@ -18,7 +18,7 @@
                     <p>Event</p>
                     <h5 class="card-title fa-bold fw-bold">{{$x->nama}}</h5>
                     <p class="card-text">{{$x->tentang_kami}}</p>
-                    <a href="{{route('detaileventt' , ['id'=>$x['id']])}}" class="btn btn-primary w-100">Lihat Detail</a>
+                    <a href="{{route('detailevent' , ['id'=>$x['id']])}}" class="btn btn-primary w-100">Lihat Detail</a>
                 </div>
             </div>
         @endforeach

@@ -77,7 +77,7 @@ class HomeController extends Controller
         return view('detailtryout' , ['data'=>$data]);
     }
 
-    public function detaileventt($id){
+    public function detailevent($id){
         $data = event::find($id);
         return view('detailevent' , ['data'=>$data]);
     }

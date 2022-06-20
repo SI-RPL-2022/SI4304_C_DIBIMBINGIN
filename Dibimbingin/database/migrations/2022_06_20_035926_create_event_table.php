@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->char('image');
-            $table->char('tipe');
+            
             $table->char('alamat');
             $table->char('kontak');
             $table->integer('WA');
