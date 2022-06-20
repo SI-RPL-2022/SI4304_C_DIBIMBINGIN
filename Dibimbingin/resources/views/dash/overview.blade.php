@@ -54,7 +54,7 @@
 
                     <div class="col-sm-2"></div>
                     <div class="col-sm-5 info-box bg-danger p-2">
-                        <span class="info-box-icon bg-danger"><i class="fas fa-users"></i></span>
+                        <span class="info-box-icon bg-danger"><i class="fas fa-book"></i></span>
                         <div class="info-box-content">
                             <span class="info-box-text">Tryout</span>
                             <span class="info-box-number">{{$tryout}}</span>
