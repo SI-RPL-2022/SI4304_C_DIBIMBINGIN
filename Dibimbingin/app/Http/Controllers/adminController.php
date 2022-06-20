@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Beasiswa;
 use App\Models\Tryout;
+use App\Models\Event;
 use App\Models\Bimbel;
 use App\Models\Pengajar;
 use App\Models\User;
@@ -22,13 +23,19 @@ class adminController extends Controller
         return view('dash.tryoutlist' , ['data'=>$data]);
     }
 
+    public function eventlist(){
+        $data = Event::all();
+        return view('dash.eventlist' , ['data'=>$data]);
+    }
+
     public function overview(){
         $beasiswa = count(Beasiswa::all());
         $user = count(User::all());
         $bimbelsma = count(Bimbel::all()->where('tipe','sma'));
         $bimbelsmp = count(Bimbel::all()->where('tipe','smp'));
         $tryout = count(Tryout::all());
-        return view('dash.overview' , ['beasiswa' => $beasiswa , 'user' => $user , 'bimbelsma' => $bimbelsma , 'bimbelsmp'=>$bimbelsmp, 'tryout' => $tryout]);
+        $event = count(Event::all());
+        return view('dash.overview' , ['beasiswa' => $beasiswa , 'user' => $user , 'bimbelsma' => $bimbelsma , 'bimbelsmp'=>$bimbelsmp, 'tryout' => $tryout, 'event' => $event]);
     }
 
     public function user(){
@@ -45,6 +52,10 @@ class adminController extends Controller
 
     public function addtryout(){
         return view('dash.addtryout');
+    }
+
+    public function addevent(){
+        return view('dash.addevent');
     }
 
     public function addbeasiswapost(Request $request){
@@ -92,6 +103,28 @@ class adminController extends Controller
         return redirect()->route('admin.listtryout');
     }
 
+    public function addeventpost(Request $request){
+        $data = new Event();
+        $data->nama = $request->nama;
+        $data->alamat = $request->alamat;
+        $data->kontak = $request->kontak;
+        $data->tanggal = $request->tanggal;
+        $data->WA = $request->wa;
+        $data->tentang_kami = $request->tentang;
+        $data->syarat = $request->syarat;
+        $data->registrasi = $request->registrasi;
+        $data->info = $request->info;
+
+        $file = $request->file('imagelogo');
+        $nama_file = time()."_".$file->getClientOriginalName();
+        $tujuan_upload = 'eventlogo';
+        $file->move($tujuan_upload,$nama_file);
+        $data->image = $nama_file;
+        $data->save();
+
+        return redirect()->route('admin.listevent');
+    }
+
     public function editbaesiswa($id){
         $data = Beasiswa::find($id);
         return view('dash.editbeasiswa' , ['data'=>$data]);
@@ -100,6 +133,11 @@ class adminController extends Controller
     public function edittryout($id){
         $data = Tryout::find($id);
         return view('dash.edittryout' , ['data'=>$data]);
+    }
+
+    public function editevent($id){
+        $data = Event::find($id);
+        return view('dash.editevent' , ['data'=>$data]);
     }
 
     public function editbeasiswapost($id , Request $request){
@@ -149,6 +187,29 @@ class adminController extends Controller
         return redirect()->back();
     }
 
+    public function editeventpost($id , Request $request){
+        $data = Event::find($id);
+        $data->nama = $request->nama;
+        $data->alamat = $request->alamat;
+        $data->kontak = $request->kontak;
+        $data->email = $request->email;
+        $data->WA = $request->wa;
+        $data->tentang_kami = $request->tentang;
+        $data->syarat = $request->syarat;
+        $data->registrasi = $request->registrasi;
+        $data->info = $request->info;
+
+        if ($request->imagelogo != null){
+            $file = $request->file('imagelogo');
+            $nama_file = time()."_".$file->getClientOriginalName();
+            $tujuan_upload = 'eventlogo';
+            $file->move($tujuan_upload,$nama_file);
+            $data->image = $nama_file;
+        }
+        $data->update();
+        return redirect()->back();
+    }
+
     public function deletebeasiswa($id){
         $data = Beasiswa::find($id);
         $data->delete();
@@ -160,6 +221,13 @@ class adminController extends Controller
         $data->delete();
         return redirect()->back();
     }
+
+    public function deleteevent($id){
+        $data = Event::find($id);
+        $data->delete();
+        return redirect()->back();
+    }
+
     public function addsmp(){
         return view('dash.addsmp');
     }

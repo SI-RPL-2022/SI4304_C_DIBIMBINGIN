@@ -32,6 +32,9 @@ Route::get('/detailbeasiswa/{id}' , [\App\Http\Controllers\HomeController::class
 Route::get('/tryout' , [\App\Http\Controllers\HomeController::class , 'tryout'])->name('tryout');
 Route::get('/detailtryout/{id}' , [\App\Http\Controllers\HomeController::class , 'detailtryout'])->name('detailtryout');
 
+Route::get('/event' , [\App\Http\Controllers\HomeController::class , 'event'])->name('event');
+Route::get('/detailevent/{id}' , [\App\Http\Controllers\HomeController::class , 'detailevent'])->name('detailevent');
+
 Route::prefix('admin')->group(function (){
     Route::get('/' , function (){
         return redirect()->route('overview');
@@ -65,6 +68,13 @@ Route::prefix('admin')->group(function (){
     Route::get('/tryout/edit/{id}' , [\App\Http\Controllers\adminController::class , 'edittryout'])->name('admin.edittryout');
     Route::post('/tryout/edit/{id}' , [\App\Http\Controllers\adminController::class , 'edittryoutpost'])->name('admin.edittryoutpost');
     Route::get('/tryout/delete/{id}' , [\App\Http\Controllers\adminController::class , 'deletetryout'])->name('admin.deletetryout');
+
+    Route::get('/event/list' , [\App\Http\Controllers\adminController::class , 'eventlist'])->name('admin.listevent');
+    Route::get('/event/add' , [\App\Http\Controllers\adminController::class , 'addevent'])->name('admin.addevent');
+    Route::post('/event/add' , [\App\Http\Controllers\adminController::class , 'addeventpost'])->name('admin.addeventpost');
+    Route::get('/event/edit/{id}' , [\App\Http\Controllers\adminController::class , 'editevent'])->name('admin.editevent');
+    Route::post('/event/edit/{id}' , [\App\Http\Controllers\adminController::class , 'editeventpost'])->name('admin.editeventpost');
+    Route::get('/event/delete/{id}' , [\App\Http\Controllers\adminController::class , 'deleteevent'])->name('admin.deleteevent');
 });
 
 Auth::routes();

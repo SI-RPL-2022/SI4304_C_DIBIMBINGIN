@@ -6,6 +6,7 @@ use App\Models\Beasiswa;
 use App\Models\Bimbel;
 use App\Models\Pengajar;
 use App\Models\Tryout;
+use App\Models\Event;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -50,6 +51,11 @@ class HomeController extends Controller
         return view('tryout' , ['data'=>$data]);
     }
 
+    public function event(){
+        $data = Event::all();
+        return view('event' , ['data'=>$data]);
+    }
+
     public function bimbelsma(){
         $data = Bimbel::all()->where('tipe' , 'sma' );
         return view('bimbelsma' , ['data'=>$data]);
@@ -69,5 +75,10 @@ class HomeController extends Controller
     public function detailtryout($id){
         $data = tryout::find($id);
         return view('detailtryout' , ['data'=>$data]);
+    }
+
+    public function detaileventt($id){
+        $data = event::find($id);
+        return view('detailevent' , ['data'=>$data]);
     }
 }

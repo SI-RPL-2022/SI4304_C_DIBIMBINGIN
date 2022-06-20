@@ -58,6 +58,10 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link fs-4 " href="{{ route('event') }}">Event</a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link  fs-4" href="{{ route('about') }}">Tentang Kami</a>
                         </li>
                     </ul>

@@ -141,6 +141,15 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="{{route('admin.listevent')}}" class="nav-link">
+                            <i class="fas fa-user-graduate mr-1"></i>
+                            <p>
+                                Page Event
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="pages/gallery.html" class="nav-link">
                             <i class="fas fa-cog mr-1"></i>
                             <p>
